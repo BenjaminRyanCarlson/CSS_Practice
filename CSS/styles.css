@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+nav{
+  background-color: black;
+justify-content: space-between;
+
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+p{
+  font-family: 'Big Shoulders Stencil Display', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.right-item2 p {
+  color: white;
+  margin-top: 15px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.menus {
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 40px;
+  background-color: red;
+  padding: 10px 5px 15px 0;
+  padding-left: 5px;
+  order: 0;
+}
+
+.item {
+  padding: 10px;
+  padding-top: 30px;
+  position: relative;
+  order: 1;
+  width: auto;
+  text-align: center;
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+
+
+}
+
+.search-icon {
+  order: 6;
+  height: 30px;
+  width: 30px;
+
+}
+
+.search {
+  padding: 10px;
+  padding-top: 20px;
+  padding-right: 0;
+  position: relative;
+  order: 5;
+  width: auto;
+  display: block;
+  border: none;
+  margin: 0;
+
+}
+
+.cart-icon {
+  order: 8;
+  height: 20px;
+  width: 20px;
+  margin-top: 28px;
+  margin-right: 30px;
+  list-style-type: none;
+  -webkit-filter: invert(1);
+ filter: invert(1);
+}
+
+.item a:hover {
+  color: red;
+}
+
+.right-item a:hover {
+  color: red;
+}
+
+.right-item1 a:hover{
+  color: red;
+}
+
+.right-item2 a:hover{
+  color: red;
+}
+
+.right-item3 a:hover{
+  color: red;
+}
+
+.right-item4 a:hover{
+  color: red;
+}
+
+.right-item{
+
+  padding: 10px;
+  padding-top: 30px;
+  position: relative;
+  order: 8;
+  width: auto;
+  text-align: center;
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.right-item1{
+  padding: 10px;
+  padding-top: 30px;
+  position: relative;
+  width: auto;
+  text-align: center;
+  display: block;
+  margin-left: 100px;
+  margin-right: 0px;
+}
+
+.right-item2{
+  padding: 10px;
+  padding-top: 30px;
+  position: relative;
+  width: auto;
+  text-align: center;
+  display: block;
+  margin-left: 0;
+  margin-right: 0px;
+}
+
+.right-item3{
+  padding: 10px;
+  padding-top: 30px;
+  position: relative;
+  width: auto;
+  text-align: center;
+  display: block;
+  margin-left: 0;
+  margin-right: 0px;
+}
+
+.right-item4{
+  padding: 10px;
+  padding-top: 30px;
+  position: relative;
+  width: auto;
+  text-align: center;
+  display: block;
+  margin-left: 75px;
+  margin-right: 0px;
+}
+
+
+
+
+
+.menu-left {
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  background: none;
+
+}
+ .menu-left li a {
+   display: block;
+   padding: 15px 5px;
+ }
+
+ .menu-right {
+   align-items: flex-start;
+   flex-wrap: nowrap;
+   background: none;
+   order: 7;
+
+
+ }
+  .menu-right li a {
+    display: block;
+    padding: 15px 5px;
+
+  }
+
+.search input {
+  height: 30px;
+  width: 150%;
+
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+
+}
+
+
+
+.footer-page {
+  margin-top: 5px;
+  padding: 10px;
+  position: relative;
+  order: 1;
+  width: auto;
+  text-align: center;
+  display: block;
+  margin-left: 500px;
+  margin-right: 20px;
+}
+
+.footer-page a:hover {
+  color: red;
+}
+
+.animation-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  margin: auto;
+  box-shadow: 10px 10px 5px grey;
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+
+ #button-holder{
+     background-color:red;
+     cursor:pointer;
+     float:left;
+     height:30px;
+     margin:11px 0 0 0;
+     margin-top: 20px;
+     margin-left: 91px;
+     margin-bottom: 42px;
+     text-align:center;
+     padding-left: 0;
+
+
+}
+     #button-holder img{
+    margin:4px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    width:25px;
+    height: 25px;
+}
+
+#button-holder2{
+    background-color:white;
+    cursor:pointer;
+    float:left;
+    height:30px;
+    margin:11px 0 0 0;
+    margin-top: 10px;
+
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align:center;
+    padding-left: 0;
+
+
+}
+    #button-holder2 img{
+   margin:4px;
+   margin-top: 3px;
+   margin-bottom: 10px;
+   width:20px;
+   height: 20px;
+}
